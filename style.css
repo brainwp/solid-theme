@@ -2467,10 +2467,33 @@ p.comment-form-comment {
     padding: 1em 0.5em;
     text-align: center;
     text-transform: uppercase;
+	width: 70%;
 }
 #site-generator a {
 	color: #555;
 	font-weight: bold;
+}
+
+
+#box-disclaimer-footer {
+    float: left;
+    height: 35px;
+    margin-left: 70px;
+    margin-top: 35px;
+    padding: 0;
+    width: 18%;
+}
+
+#title-logo-footer {
+    color: #ffffff;
+    font-size: 0.6em;
+    margin-left: 7px;
+}
+
+#box-disclaimer-footer a {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 
