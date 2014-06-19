@@ -9,9 +9,9 @@ function filter_solid( $content ) {
 	$string = array(' Solid ');
 	$string2 = array(' Solid.');
 	$string3 = array(' Solid,');
-	$content = str_ireplace( $string, '<span style=color:#244c78;font-weight:bold;"> Solid </span>', $content );
-	$content = str_ireplace( $string2, '<span style=color:#244c78;font-weight:bold;"> Solid.</span>', $content );
-	$content = str_ireplace( $string3, '<span style=color:#244c78;font-weight:bold;"> Solid,</span>', $content );
+	$content = str_ireplace( $string, '<span style=color:#244c78;font-weight:bold;"> Sapeg </span>', $content );
+	$content = str_ireplace( $string2, '<span style=color:#244c78;font-weight:bold;"> Sapeg.</span>', $content );
+	$content = str_ireplace( $string3, '<span style=color:#244c78;font-weight:bold;"> Sapeg,</span>', $content );
 	return $content;
 }
 
